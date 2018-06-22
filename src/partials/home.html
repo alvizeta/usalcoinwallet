@@ -1,0 +1,105 @@
+<main-toolbar>
+    <h1 flex style="text-align: center">Dashboard</h1>
+
+    <md-button ng-click="" class="md-icon-button">
+        <md-icon aria-label="arrow back" class="material-icons">refresh</md-icon>
+        <md-tooltip md-direction="bottom">Refresh</md-tooltip>
+    </md-button>
+
+    <md-button ng-click="" class="md-icon-button">
+        <md-icon aria-label="arrow back" class="material-icons">notifications</md-icon>
+        <md-tooltip md-direction="bottom">Notifications</md-tooltip>
+    </md-button>
+
+    <md-button ng-click="" Xclass="md-icon-button"> Cerrar Sesion
+    </md-button>
+</main-toolbar>
+
+
+
+<md-content layout-gt-sm="row" layout-sm="column" style="background-color: whitesmoke">
+    <md-card flex>
+
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Your Balance in USL</span>
+            </md-card-title-text>
+        </md-card-title>
+
+        <md-card-content layout="row" layout-align="center center">
+
+            <h1 style="font-size: 7em;">3</h1>
+            <h1 style="padding-top: 40px">.00238</h1>
+
+        </md-card-content>
+    </md-card>
+
+    <md-card flex>
+
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Recent Activity</span>
+            </md-card-title-text>
+        </md-card-title>
+
+        <md-card-content>
+
+            <md-list>
+                <md-list-item class="secondary-button-padding" >
+                    <md-icon aria-label="Home" class="material-icons">arrow_forward</md-icon>
+                    <span flex style="padding-top: 7px; color: darkred">Sent</span>
+                    <span flex style="padding-top: 7px;">May 3, 2018</span>
+                    <span flex style="padding-top: 7px;">0,00012 USL</span>
+                </md-list-item>
+                <hr>
+                <md-list-item class="secondary-button-padding" >
+                    <md-icon aria-label="Home" class="material-icons">arrow_forward</md-icon>
+                    <span flex style="padding-top: 7px;color: darkred">Sent</span>
+                    <span flex style="padding-top: 7px;">May 4, 2018</span>
+                    <span flex style="padding-top: 7px;">1,10253 USL</span>
+                </md-list-item>
+                <hr>
+
+                <md-list-item class="secondary-button-padding" >
+                    <md-icon aria-label="Home" class="material-icons">arrow_back</md-icon>
+                    <span flex style="padding-top: 7px;color: darkgreen">Received</span>
+                    <span flex style="padding-top: 7px;">May 5, 2018</span>
+                    <span flex style="padding-top: 7px;">1,00022 USL</span>
+                </md-list-item>
+                <hr>
+
+                <md-list-item class="secondary-button-padding" >
+                    <md-icon aria-label="Home" class="material-icons">arrow_forward</md-icon>
+                    <span flex style="padding-top: 7px; color: darkred">Sent</span>
+                    <span flex style="padding-top: 7px;">May 7, 2018</span>
+                    <span flex style="padding-top: 7px;">0,70552 USL</span>
+                </md-list-item>
+
+        </md-card-content>
+    </md-card>
+</md-content>
+
+<md-fab-speed-dial style="position: fixed; right: 19px; bottom: 19px;"  md-direction="up" class="md-scale">
+    <md-fab-trigger>
+        <md-button md-open="demo.isOpen" class="md-fab md-primary" style="background-color: deepskyblue"
+                   aria-label="menu">
+            <md-icon class="material-icons">attach_money</md-icon>
+            <md-tooltip md-direction="left">Exchange</md-tooltip>
+        </md-button>
+    </md-fab-trigger>
+
+    <md-fab-actions >
+        <md-button class="md-fab md-raised md-mini" style="background-color: deepskyblue"
+                                       ng-click="sendDialog($event)" aria-label="Add Component">
+            <md-icon class="material-icons" style="color: white">arrow_forward</md-icon>
+            <md-tooltip md-direction="left">Send</md-tooltip>
+         </md-button>
+        <md-button class="md-fab md-raised md-mini" style="background-color: deepskyblue"
+                                   ng-click="requestDialog($event)" aria-label="Add Component">
+            <md-icon class="material-icons" style="color: white">arrow_back</md-icon>
+            <md-tooltip md-direction="left">Request</md-tooltip>
+        </md-button>
+    </md-fab-actions>
+</md-fab-speed-dial>
+
+

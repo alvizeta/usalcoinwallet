@@ -1,0 +1,44 @@
+<md-dialog ng-style="{'min-height': '240px', 'width': '700px', 'padding': '20px'}">
+
+
+    <h2 class="md-title">
+        Send Usal Coin(USL)
+    </h2>
+
+    <div class="md-padding" layout="column">
+
+        <md-input-container style="padding-bottom: 30px">
+            <label>From</label>
+            <md-select placeholder="Add an investment portfolio" ng-model="from">
+                <md-option ng-value="a">My investment portfolio (3.00238)</md-option>
+            </md-select>
+        </md-input-container>
+
+        <md-input-container>
+            <label>To</label>
+            <input placeholder="Add a destination" ng-model="to">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Amount</label>
+            <input ng-model="amount">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Description</label>
+            <textarea rows="2" placeholder="Add a detailed description" ng-model="description"></textarea>
+        </md-input-container>
+
+        <div layout="row" layout-align="start center">
+
+            <h4>Transaction fee</h4>
+            <span style="padding-left: 15px"> 0.00011</span>
+        </div>
+
+    </div>
+
+    <md-button flex class="md-raised md-primary" ng-click="saveComponent()">
+        Continue
+    </md-button>
+
+</md-dialog>
