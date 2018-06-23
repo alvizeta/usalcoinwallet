@@ -1,5 +1,10 @@
 # usalcoinwallet
-Javascript/Angular project make sure you have installed NPM Node.js Grunt Bower in your machine then go to 
+Javascript/Angular project make sure you have installed 
+NPM Node.js(https://nodejs.org/en/) 
+Grunt(https://gruntjs.com/installing-grunt) 
+Bower(https://bower.io/) 
+
+in your machine then go to the repo where you downloaded the code 
 
 usalcoinwallet/ in there run the command:
 
