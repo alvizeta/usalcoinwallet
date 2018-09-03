@@ -3,7 +3,7 @@ This is a college development where I had to create a webapp for a cryptocoin wa
 In this repo you will find a layout built with Angular and Angular Material
 ![appscreenshot](https://github.com/alvizeta/usalcoinwallet/edit/master/screenshotapp1.png)
 
-![appscreenshot](https://github.com/alvizeta/usalcoinwallet/edit/master/screenshotapp2.png)
+![appscreenshot1](https://github.com/alvizeta/usalcoinwallet/edit/master/screenshotapp2.png)
 
 
 # Instructions to run the app
