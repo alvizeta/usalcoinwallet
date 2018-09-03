@@ -1,4 +1,10 @@
-# usalcoinwallet
+# Usal Coin Wallet
+This is a college development where I had to create a webapp for a cryptocoin wallet called Usal Coin.
+In this repo you will find a layout built with Angular and Angular Material
+
+
+
+# Instructions to run the app
 Javascript/Angular project make sure you have installed 
 NPM Node.js(https://nodejs.org/en/) 
 Grunt(https://gruntjs.com/installing-grunt) 
