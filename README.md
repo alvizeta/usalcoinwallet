@@ -1,7 +1,9 @@
 # Usal Coin Wallet
 This is a college development where I had to create a webapp for a cryptocoin wallet called Usal Coin.
 In this repo you will find a layout built with Angular and Angular Material
+![appscreenshot](https://github.com/alvizeta/usalcoinwallet/edit/master/appscreenshot1.png)
 
+![appscreenshot](https://github.com/alvizeta/usalcoinwallet/edit/master/appscreenshot2.png)
 
 
 # Instructions to run the app
