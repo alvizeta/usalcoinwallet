@@ -1,9 +1,23 @@
 # Usal Coin Wallet
 This is a college development where I had to create a webapp for a cryptocoin wallet called Usal Coin.
-In this repo you will find a layout built with Angular and Angular Material
 
 ![appscreenshot1](https://github.com/alvizeta/usalcoinwallet/blob/master/screenshotapp1.png)
 ![appscreenshot2](https://github.com/alvizeta/usalcoinwallet/blob/master/screenshotapp2.png)
+
+## Features
+* User balance
+* Recent transactions
+* All transactions
+* Notifications panel
+* Admin user panel
+
+## Tools involved
+* Angular 1.x
+* Angular Material
+* Yeoman generator
+* Lodash
+* Grunt
+* Bower
 
 
 # Instructions to run the app
@@ -16,7 +30,7 @@ in your machine then go to the repo where you downloaded the code
 
 usalcoinwallet/ in there run the command:
 
-grunt serve
+`grunt serve`
 
 that will initialize your angular app in the url localhost:9000/
 
